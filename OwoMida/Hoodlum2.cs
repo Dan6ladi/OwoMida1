@@ -21,5 +21,10 @@ namespace OwoMida
             return final_discount;
         
         }
+        public int add(int firstNum , int Secondnum)
+        {
+            int finalAnswer = firstNum + Secondnum;
+            return finalAnswer;
+        }
     }
 }
